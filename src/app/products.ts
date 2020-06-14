@@ -1,3 +1,5 @@
+import { IProduct } from './iproduct';
+
 export default[ {
       "id": 1,
       "name": "Body Luxuries Sweet Lavender Hand Sanitizer",

@@ -1,6 +1,6 @@
-import { IProduct } from './iproduct';
+import { IProduct } from './models/iproduct';
 
-export default[ {
+const products: IProduct[] = {
       "id": 1,
       "name": "Body Luxuries Sweet Lavender Hand Sanitizer",
       "description": "Cleans your hands",
@@ -81,3 +81,4 @@ export default[ {
       "imgUrl": "http://dummyimage.com/189x109.png/cc0000/ffffff",
       "price": "$74.37"
     }];
+export {products};

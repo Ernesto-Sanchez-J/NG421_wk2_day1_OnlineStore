@@ -1,17 +1,17 @@
 import { Injectable } from '@angular/core';
-import { products } from './products';
-import { IProduct } from './iproduct';
+import { products } from '../products';
+import { IProduct } from '../models/iproduct';
 
 @Injectable({
   providedIn: 'root'
 })
-export class ProductServiceService {
+export class ProductService {
 
   shoppingCart: Array<Iproduct> = [];
   products: IProduct[];
 
   constructor() { 
-    this.products =products;
+    this.products = products;
   }
 
   getProducts(): IProduct[] {

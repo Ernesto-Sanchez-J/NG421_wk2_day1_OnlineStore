@@ -10,7 +10,7 @@ export class ProductService {
   shoppingCart: Array<Iproduct> = [];
   products: IProduct[];
 
-  constructor() { 
+  constructor() {
     this.products = products;
   }
 

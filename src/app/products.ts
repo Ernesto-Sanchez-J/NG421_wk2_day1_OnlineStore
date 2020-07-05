@@ -1,6 +1,6 @@
 import { IProduct } from './models/iproduct';
 
-const products: IProduct[] = {
+const products: IProduct[] =[ {
       "id": 1,
       "name": "Body Luxuries Sweet Lavender Hand Sanitizer",
       "description": "Cleans your hands",
